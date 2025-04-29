@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 
-model = pickle.load(open('logistic_model.pkl', 'rb'))
+model = pickle.load(open('logistic_data.pkl', 'rb'))
 
 st.title('Titanic Survival Prediction')
 
